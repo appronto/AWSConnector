@@ -11,7 +11,7 @@ Derive a signing key by performing a succession of keyed hash operations (HMAC o
 
 # TL;DR
 
-Creating an Authorization signature can be quiet complex.
+Creating an Authorization signature can be quite complex.
 
 The Appronto AWS Connector allows you to quickly generate the required headers for your REST API call. The only requirement is to create a single object AWSv4Signature object and populate this with the required fields for the service you would like to call.
 Through a JAVA action, this AWSv4Signature object is used to generate the Authorization and other required headers.
